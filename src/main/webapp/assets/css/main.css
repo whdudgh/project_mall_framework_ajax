@@ -1,0 +1,252 @@
+/* 전체 설정 */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  background-color: #000;
+}
+#main_img{
+  width: 100%;
+  height: 750px;
+  background-size: cover;
+  text-align: center;
+}
+
+.text-inside-image{
+  position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: white;
+    text-align: left; 
+}
+
+.mainPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+/* .mainP {
+  color: white;
+  font-size: 35px;
+  line-height: normal;
+  margin-right: 10%;
+  margin-left: 10%;
+} */
+
+.main2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #000;
+
+}
+
+.main3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 10%;
+}
+
+.main4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 10%;
+}
+
+.image-text-container {
+  display: flex;
+  align-items: center;
+}
+.main_img2 {
+  width: 700px;
+  height: 550px;
+  object-fit: cover;
+  margin-left: 100px;
+  flex: 1;
+  padding-right: 20px; /* 이미지와 텍스트 사이 간격 조절 */
+}
+
+.main_img3 {
+  display: flex;
+}
+.main_img4{
+  display: flex;
+  margin-left: 20px; /* 이미지 간격 조절 */
+  margin-right: 100px;
+}
+
+.mainContent {
+  flex: 1;
+  color: white;
+  margin-left: 8%;
+}
+.mainContent2{
+  flex: 1;
+  color: white;
+  margin-top: 12%;
+  float: right;
+}
+.mainContent3{
+  flex: 1;
+  color: white;
+  margin-left: 8%;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  color: white;
+}
+
+.mainText3 {
+  flex: 1;
+}
+
+.mainText pre {
+  margin: 0; /* 기본적으로 적용되는 마진 제거 */
+}
+
+.mainText3 pre {
+  margin: 0;
+}
+
+.main5 {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  margin-left: 100px ;
+}
+
+.mainContent4 {
+  color: #000;
+  margin-left: 10%;
+}
+
+.mainContent4 h2 {
+  margin: 0;
+}
+
+.img-5 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-right: 10%;
+}
+
+.img-5 img {
+  max-width: 100%; /* 이미지가 부모 요소의 너비를 넘지 않도록 설정 */
+  max-height: 100%; /* 이미지가 부모 요소의 높이를 넘지 않도록 설정 */
+  object-fit: contain; /* 이미지를 가운데로 정렬하여 보존 */
+}
+
+video{
+  width:85%;
+  height:600px;
+  object-fit:cover;
+  display: block;
+  margin-left: 7.5%;
+  background-color: #000;
+margin-bottom: 10%;
+}
+
+.slider{
+  width: 700px;
+  height: 650px;
+  position: relative;
+  margin-right: 20% ;
+  overflow: hidden; /* 현재 슬라이드 오른쪽에 위치한 나머지 슬라이드 들이 보이지 않도록 가림 */
+margin-top: 130px;
+color: white;
+margin-bottom: 130px;
+}
+.slider input[type=radio]{
+  display: none;
+}
+
+ul.imgs{
+  padding: 0;
+  margin: 0;
+  list-style: none;    
+  background-size: cover;
+}
+ul.imgs li{
+  position: absolute;
+  left: 700px;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.bullets{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  z-index: 2;
+}
+.bullets label{
+  display: inline-block;
+  border-radius: 20%;
+  background-color: rgb(63, 63, 63);
+  width: 25px;
+  height: 5px;
+  cursor: pointer;
+}
+/* 현재 선택된 불릿 배경 흰색으로 구분 표시 */
+.slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
+  background-color: white;
+}
+.slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
+  background-color: white;
+}
+.slider input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
+  background-color: white;
+}
+.slider input[type=radio]:nth-child(4):checked~.bullets>label:nth-child(4){
+  background-color: white;
+}
+
+.slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
+  left: 0;
+  transition: 0.1s;
+  z-index:3;
+}
+.slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
+  left: 0;
+  transition: 0.1s;
+  z-index:3;
+}
+.slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
+  left: 0;
+  transition: 0.1s;
+  z-index:3;
+}
+.slider input[type=radio]:nth-child(4):checked~ul.imgs>li:nth-child(4){
+  left: 0;
+  transition: 0.1s;
+  z-index:3;
+}
+#imgholder li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#imgholder p{
+  margin-top: 10px; /* 원하는 간격 설정 */
+  font-size: 20px; /* 원하는 텍스트 크기 설정 */
+  color: white; /* 원하는 텍스트 색상 설정 */
+}
+
+

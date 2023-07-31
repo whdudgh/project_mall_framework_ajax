@@ -1,0 +1,78 @@
+
+    #loginbox {
+      text-align: center;
+      margin: 0 auto;
+      width: 350px;
+    }
+    
+    form button {
+      height: 50px;
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    input{
+      width: 20em; height: 2.5em; margin: 10px; padding-left: 5px;
+    }
+    
+    form button {
+      cursor: pointer;
+    }
+    
+    .email{
+      display: flex; 
+      align-items: center;
+    }
+    
+    .pwWord{
+      display: flex; 
+      align-items: center;
+    }
+
+    #loginbtn {
+      background-color: black;
+      color: aliceblue;
+      margin-bottom: 2em;
+      margin-top: 2em;
+    }
+
+    #signupbtn {
+      background-color: rgb(18, 50, 44);
+      color: rgb(238, 238, 238);
+      margin-bottom: 2em;
+      margin-top: 2em;
+    }
+
+    #findIwPw {
+      margin-top: 2em;
+    }
+
+    #findId {
+      margin-right: 3em;
+    }
+
+    #hr-line {
+      border-top: 1px solid black;
+      margin: 20px 0;
+      width: 100%;
+    }
+
+    .fa-envelope {
+      font-size: 30px;
+      padding: 20PX;
+      font-size: 2em; 
+      padding: 12px;
+    }
+
+    .fa-lock {
+      font-size: 30px;
+      padding: 20px;
+      display: flex; 
+      align-items: center;
+    }

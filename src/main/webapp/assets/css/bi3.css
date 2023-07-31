@@ -1,0 +1,150 @@
+
+body {
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+	background-color:#f7f7f7;
+   background: linear-gradient(45deg , #12322C, #E3E6E9);
+}
+* {box-sizing: border-box}
+
+/* Add padding to container elements */
+.container {
+    padding: 20px;
+      width:560px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+      border:1px solid #ccc;
+      border-radius:10px;
+      background:rgb(227, 230, 233);
+  -webkit-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  -moz-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  margin-top: 5%;
+  }
+
+  p{
+    font-size: small;
+  }
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+
+input[type=number]{
+  width: 35%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+
+#emaill{
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+
+select {
+  width: 25%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+
+/* #pwcheck1 {
+  margin-top: 17px;
+  margin-left: 10px;
+
+  color: red;
+  display: none;
+  position: absolute;
+  right: -42.5%;
+}
+
+#pwcheck2 {
+  margin-top: 17px;
+  margin-left: 10px;
+
+  color: red;
+  display: none;
+  position: absolute;
+  right: -35%;
+} */
+
+input[type=phone] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=phone]:focus, select:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+/* Set a style for all buttons */
+button {
+  background-color: rgb(18, 50, 44);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+	font-size:16px;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+	border-radius:5px;
+}
+
+#backbtn{
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+	font-size:16px;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+	border-radius:5px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+/* Change styles for signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .signupbtn {
+     width: 100%;
+  }
+}
+
+
+
+

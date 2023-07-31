@@ -1,0 +1,139 @@
+
+table {
+  margin: 0 auto;
+
+}
+
+th {
+  line-height: 25px;
+  height: 25px;
+}
+
+th i {
+  font-size: 2em;
+  padding: 10px;
+}
+
+td input {
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  padding-left: 5px;
+}
+
+td select {
+  height: 30px;
+  width: 150px;
+  margin: 0;
+}
+
+#email {
+  margin-right: 0;
+}
+
+#emaill {
+  margin: 0;
+}
+
+td input#email {
+  width: 97px;
+  height: 40px;
+  margin: 10px;
+  padding-left: 5px;
+}
+
+td input#emaill {
+  width: 97px;
+  height: 40px;
+  margin: 10px;
+  padding-left: 5px;
+}
+
+.pwch1 {
+  display: flex;
+  position: relative;
+
+}
+
+#pwcheck1 {
+  margin-top: 17px;
+  margin-left: 10px;
+
+  color: red;
+  display: none;
+  position: absolute;
+  right: -42.5%;
+}
+
+.pwch2 {
+  display: flex;
+  position: relative;
+
+}
+
+#pwcheck2 {
+  margin-top: 17px;
+  margin-left: 10px;
+
+  color: red;
+  display: none;
+  position: absolute;
+  right: -35%;
+}
+
+.birthch {
+  display: flex;
+  position: relative;
+}
+
+#birthcheck {
+  margin-top: 17px;
+  margin-left: 10px;
+  color: red;
+  display: none;
+  position: absolute;
+  right: -41.5%;
+}
+
+.phonech {
+  display: flex;
+  position: relative;
+}
+
+#phonecheck {
+  margin-top: 17px;
+  margin-left: 10px;
+  color: red;
+  display: none;
+  position: absolute;
+  right: -41.5%;
+  text-align: center;
+}
+
+.privacytable {
+  text-align: center;
+  width: 30%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  font-size: 1em;
+}
+
+#signbtn {
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  width: 20em;
+  padding: 1em;
+  background-color: rgb(18, 50, 44);
+  color: rgb(238, 238, 238);
+}
+
+#backbtn {
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  width: 20em;
+  padding: 1em;
+  background-color: rgb(18, 50, 44);
+  color: rgb(238, 238, 238);
+}
