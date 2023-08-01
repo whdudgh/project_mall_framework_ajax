@@ -7,6 +7,6 @@
 <title></title>
 </head>
 <body>
-<h2>룰루랄라~</h2>
+
 </body>
 </html>
