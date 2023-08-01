@@ -21,8 +21,6 @@ import ezen.shoppingmall.web.mvc.controller.RestController;
  */
 public class CartUpdateController implements RestController{
 	
-	private CartService cartService = ServiceFactory.getInstance().getCartService();
-	
 	@Override
 	public void process(Map<String, String> paramMap, HttpServletRequest request,	HttpServletResponse response) {
 		response.setContentType("application/json; charset=utf-8");
@@ -34,7 +32,7 @@ public class CartUpdateController implements RestController{
 			String productMount = paramMap.get("productMount");
 			
 			Cart cart  = (Cart)request.getSession().getAttribute("cart");
-			//cart.updateProductCount(productId, productMount);
+			cart.updateProductCount(cart, productId, productMount);
 			result = "true";
 			
 		} catch (IOException e) {
